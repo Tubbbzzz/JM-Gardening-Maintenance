@@ -11,7 +11,7 @@ body {
     background: url(./421561284_122106369464191649_3893292009831967416_n.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    color: black;
+    color: #fff;
 }
 
 .cursor {
@@ -26,43 +26,47 @@ z-index: 1000;
 pointer-events: none;
 }
 
-.logo {
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: black;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0rem 1.5rem;
+    cursor: grab;
+    justify-content: center;
+}
+
+nav a:hover {
+    color: lightskyblue;
 }
 
 .column-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    color: black;
+    color: white;
     text-align: center;
     padding: 0rem 2rem;
 }
+
 
 .column-left h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
     justify-content: center;
-    color: black;
 }
 
 .column-left p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-    justify-content: center;
-    color: black;
-}
-
-
-.hero-container {
-    display: grid;
-    color: black;
-    grid-template-columns: 57fr 57fr;
-    height: 95vh;
-    padding: 3rem calc((100vw - 1300px) / 2);
     justify-content: center;
 }
 
@@ -71,12 +75,20 @@ button {
     font-size: 1rem;
     border: 5%;
     color: black;
-    background: none;
+    background: white;
     border-radius: 20%;
 }
 
 button:hover {
-    background-color: #FFD1DC;
-    color: black;
+    background-color: black;
+    color: purple;
    cursor: grab;
 }
+.column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+    justify-content: center;
+}
+
