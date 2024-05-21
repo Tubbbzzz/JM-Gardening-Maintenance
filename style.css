@@ -12,6 +12,8 @@ body {
     background-size: cover;
     background-position: center;
     color: #fff;
+    align-items: center;
+    justify-content: center;
 }
 
 .cursor {
@@ -24,26 +26,6 @@ border-radius: 10vh;
 border: solid 1px hsla(184, 80%, 49%, 0.637);
 z-index: 1000;
 pointer-events: none;
-}
-
-nav {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem calc((100vw - 1300px) / 2);
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 0rem 1.5rem;
-    cursor: grab;
-    justify-content: center;
-}
-
-nav a:hover {
-    color: lightskyblue;
 }
 
 .column-left {
@@ -84,6 +66,7 @@ button:hover {
     color: purple;
    cursor: grab;
 }
+
 .column-right {
     display: flex;
     justify-content: center;
