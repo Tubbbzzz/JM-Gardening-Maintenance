@@ -38,7 +38,7 @@ pointer-events: none;
 .column-left {
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     color: black;
     text-align: center;
@@ -49,6 +49,7 @@ pointer-events: none;
     margin-bottom: 1rem;
     font-size: 3rem;
     justify-content: center;
+    color: black;
 }
 
 .column-left p {
@@ -56,9 +57,8 @@ pointer-events: none;
     font-size: 1.5rem;
     line-height: 1.5;
     justify-content: center;
+    color: black;
 }
-
-
 
 button {
     padding: 1.5rem 3rem;
