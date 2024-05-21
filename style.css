@@ -50,7 +50,7 @@ pointer-events: none;
     justify-content: center;
 }
 
-.button {
+button {
     padding: 1rem 1rem;
     font-size: 1rem;
     border: 2%;
@@ -59,7 +59,7 @@ pointer-events: none;
     border-radius: 10%;
 }
 
-.button:hover {
+button:hover {
     background-color: black;
     color: purple;
    cursor: grab;
