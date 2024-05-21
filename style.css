@@ -11,7 +11,7 @@ body {
     background: url(./421561284_122106369464191649_3893292009831967416_n.jpg);
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: black;
 }
 
 .cursor {
@@ -28,7 +28,7 @@ pointer-events: none;
 
 .hero-container {
     display: grid;
-    color: #fff;
+    color: black;
     grid-template-columns: 57fr 57fr;
     height: 95vh;
     padding: 3rem calc((100vw - 1300px) / 2);
@@ -40,7 +40,7 @@ pointer-events: none;
     flex-direction: column;
     justify-content: right;
     align-items: center;
-    color: white;
+    color: black;
     text-align: center;
     padding: 0rem 2rem;
 }
