@@ -12,8 +12,6 @@ body {
     background-size: cover;
     background-position: center;
     color: #fff;
-    align-items: center;
-    justify-content: center;
 }
 
 .cursor {
@@ -34,7 +32,7 @@ pointer-events: none;
     justify-content: right;
     align-items: center;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 0rem 2rem;
 }
 
