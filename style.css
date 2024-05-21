@@ -26,19 +26,13 @@ z-index: 1000;
 pointer-events: none;
 }
 
-button {
-    padding: 1.5rem 3rem;
-    font-size: 1rem;
-    border: 5%;
-    color: black;
-    background: none;
-    border-radius: 20%;
-}
-
-button:hover {
-    background-color: #FFD1DC;
-    color: black;
-   cursor: grab;
+.hero-container {
+    display: grid;
+    color: #fff;
+    grid-template-columns: 57fr 57fr;
+    height: 95vh;
+    padding: 3rem calc((100vw - 1300px) / 2);
+    justify-content: center;
 }
 
 .column-left {
@@ -64,3 +58,19 @@ button:hover {
     justify-content: center;
 }
 
+
+
+button {
+    padding: 1.5rem 3rem;
+    font-size: 1rem;
+    border: 5%;
+    color: black;
+    background: none;
+    border-radius: 20%;
+}
+
+button:hover {
+    background-color: #FFD1DC;
+    color: black;
+   cursor: grab;
+}
