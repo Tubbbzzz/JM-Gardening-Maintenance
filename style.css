@@ -8,7 +8,10 @@
 body {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#FDFD96, #FFD1DC);
+    background: url(./421561284_122106369464191649_3893292009831967416_n.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 .cursor {
@@ -37,3 +40,27 @@ button:hover {
     color: black;
    cursor: grab;
 }
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0rem 2rem;
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    justify-content: center;
+}
+
